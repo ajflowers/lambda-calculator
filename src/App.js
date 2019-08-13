@@ -7,6 +7,7 @@ import "./App.css";
 // Logo has already been provided for you. Do the same for the remaining components
 import Logo from "./components/DisplayComponents/Logo";
 import Display from "./components/DisplayComponents/Display";
+import Specials from "./components/ButtonComponents/SpecialButtons/Specials"
 
 
 function App() {
@@ -30,9 +31,7 @@ function App() {
         </div>
         <div className="buttons">
           <div className="buttons-column">
-            <div className="buttons-special">
-
-            </div>
+            <Specials />
             <div className="buttons-numbers">
 
             </div>
