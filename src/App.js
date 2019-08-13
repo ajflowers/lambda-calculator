@@ -17,7 +17,7 @@ function App() {
   // Don't forget to pass the functions (and any additional data needed) to the components as props
   const [display, setDisplay] = useState(0)
   
-    setDisplay(0);
+  setDisplay(0);
   
 
   return (
