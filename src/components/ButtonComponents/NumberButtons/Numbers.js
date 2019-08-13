@@ -4,6 +4,9 @@ import React from "react";
 
 //Import your array data to from the provided data file
 
+import numbers from "../../data.js";
+console.log(numbers);
+
 const Numbers = () => {
   // STEP 2 - add the imported data to state
   return (
