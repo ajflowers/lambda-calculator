@@ -8,7 +8,7 @@ import "./App.css";
 import Logo from "./components/DisplayComponents/Logo";
 import Display from "./components/DisplayComponents/Display";
 import Specials from "./components/ButtonComponents/SpecialButtons/Specials"
-
+import Numbers from "./components/ButtonComponents/NumberButtons/Numbers";
 
 function App() {
   // STEP 5 - After you get the components displaying using the provided data file, write your state hooks here.
@@ -18,7 +18,7 @@ function App() {
   // Don't forget to pass the functions (and any additional data needed) to the components as props
   const [display, setDisplay] = useState(0)
   
-  setDisplay(0);
+  // setDisplay(0);
   
 
   return (
@@ -31,18 +31,15 @@ function App() {
         </div>
         <div className="buttons">
           <div className="buttons-column">
-            <Specials />
-            <div className="buttons-numbers">
-
-            </div>
+            <Specials />                   
+            <Numbers />
           </div>
-          <div className="buttons-numbers">
+          <div className="buttons-operation">
 
           </div>
-
         </div>
       </div>
-    </div>
+    </div>    
   );
 }
 

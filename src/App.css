@@ -8,6 +8,7 @@
 
 .buttons-column {
     flex-direction: column;
+    width: 390px;
 }
 
 .buttons-numbers {
@@ -36,14 +37,42 @@
     overflow: hidden;
 }
 
-.button-numberButton {
+button {
+    width: 80px;
+    height: 80px;
+    color: white;
+    border: 0px;
+    border-radius: 40px;
+    margin-top: 50px;
+    font-size: 30px;
+    
+
+}
+
+ 
+.buttons-special > button {
+    background-color: #235c9e;
+    margin-right: 50px;
+} 
+
+.buttons-numbers > button {
+    background: #184379;
+    margin-right: 50px;
+    
+}
+
+.buttons-operators > button {
+    background: #247292;
+}
+
+/* .button-numberButton {
     background: #184379
 }
 
 .button-functionButton {
     background: #247292;
-}
+}  
 
 .button-specialButton {
-    color: #235c9e
-}
+    background-color: #235c9e;
+} */
