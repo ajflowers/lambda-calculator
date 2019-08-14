@@ -43,7 +43,7 @@
 }
 
 button {
-    width: 100px;
+    /* width: 100px; */
     height: 100px;
     color: white;
     border: 0px;
@@ -58,18 +58,19 @@ button {
 .buttons-special > button {
     background-color: #235c9e;
     margin-right: 40px;
+    width: 100px;
 } 
 
 .buttons-numbers > button {
     background: #184379;
-    margin-right: 40px;
-    
+    margin-right: 40px;    
 }
 
 .buttons-operators > button {
     background: #247292;
+    width: 100px;
 }
 
-button.button-num-0 {
+.buttons-numbers > button.button-num-0 {
     width: 240px !important;
 }
